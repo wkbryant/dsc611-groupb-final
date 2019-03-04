@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="6" y="174" />
+        <Position x="54" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -20,9 +20,6 @@
 Table=`'Influenza_Laboratory-Confirmed_$'`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Season" size="255" source="File: C:\Users\Tim\Desktop\Influenza_Laboratory-Confirmed_Cases_By_County__Beginning_2009-10_Season.xls|||`'Influenza_Laboratory-Confirmed_$'`" type="V_WString" />
@@ -41,7 +38,7 @@ Table=`'Influenza_Laboratory-Confirmed_$'`</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="210" y="174" />
+        <Position x="258" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -61,11 +58,11 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="306" y="102" />
+        <Position x="354" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_16512_8fe37f036a1647e19dae9b5da729f212_\Engine_10236_b0795e3db46e42639bd891172e0187f1_.yxdb</TempFile>
+          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_13484_3693d0058b6e41c5aacb2a13cb9a3408_\Engine_3640_7d9ca2d3ec774df9884b78dd38450829_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -89,7 +86,7 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="306" y="174" />
+        <Position x="354" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -112,11 +109,11 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="102" />
+        <Position x="450" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_16512_8fe37f036a1647e19dae9b5da729f212_\Engine_10236_13e9032c675e412a8bd6789b004196a8_.yxdb</TempFile>
+          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_13484_3693d0058b6e41c5aacb2a13cb9a3408_\Engine_3640_b0ce7fc2cf4447409b1baab04d39186d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -140,11 +137,11 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="402" y="246" />
+        <Position x="450" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_16512_8fe37f036a1647e19dae9b5da729f212_\Engine_10236_04418635e8c643bc88a89349edacf0c5_.yxdb</TempFile>
+          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_13484_3693d0058b6e41c5aacb2a13cb9a3408_\Engine_3640_109ae214aaa14cdf8912e7353d5bee50_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -168,7 +165,7 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
-        <Position x="402" y="162" />
+        <Position x="450" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -189,11 +186,11 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="498" y="90" />
+        <Position x="546" y="126" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_16512_8fe37f036a1647e19dae9b5da729f212_\Engine_10236_f968f70ad342458c8c5cf8d7cece9d12_.yxdb</TempFile>
+          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_13484_3693d0058b6e41c5aacb2a13cb9a3408_\Engine_3640_42557721447b47b6bd8809ee418d5582_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -217,7 +214,7 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="102" y="174" />
+        <Position x="150" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -246,11 +243,11 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="198" y="18" />
+        <Position x="246" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_16512_8fe37f036a1647e19dae9b5da729f212_\Engine_10236_b97ed0faa1b84de29b1802329bd30d02_.yxdb</TempFile>
+          <TempFile>C:\Users\Tim\AppData\Local\Temp\Engine_13484_3693d0058b6e41c5aacb2a13cb9a3408_\Engine_3640_526f3fd37c924b2196460f7e66397f34_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -274,7 +271,7 @@ County - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="774" y="162" />
+        <Position x="1194" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -291,15 +288,12 @@ County - Ascending</DefaultAnnotationText>
 Table=Sheet1</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="546" y="174" />
+        <Position x="594" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -336,7 +330,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="702" y="162" />
+        <Position x="750" y="198" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -349,6 +343,7 @@ Table=Sheet1</DefaultAnnotationText>
             <SelectField field="Sum_Count" selected="True" />
             <SelectField field="Region" selected="True" />
             <SelectField field="County Centroid" selected="True" />
+            <SelectField field="FIPS" selected="True" />
             <SelectField field="*Unknown" selected="False" />
           </SelectFields>
         </Configuration>
@@ -362,7 +357,7 @@ Table=Sheet1</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="630" y="174" />
+        <Position x="678" y="210" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -380,6 +375,235 @@ Table=Sheet1</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="366" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Tim\Desktop\Total Population by County.xlsx|||`Annual_Population_Estimates_for$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total Population by County.xlsx
+Table=`Annual_Population_Estimates_for$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FIPS Code" source="File: C:\Users\Tim\Desktop\Total Population by County.xlsx|||`Annual_Population_Estimates_for$`" type="Double" />
+            <Field name="Geography" size="255" source="File: C:\Users\Tim\Desktop\Total Population by County.xlsx|||`Annual_Population_Estimates_for$`" type="V_String" />
+            <Field name="Year" source="File: C:\Users\Tim\Desktop\Total Population by County.xlsx|||`Annual_Population_Estimates_for$`" type="Double" />
+            <Field name="Program Type" size="255" source="File: C:\Users\Tim\Desktop\Total Population by County.xlsx|||`Annual_Population_Estimates_for$`" type="V_String" />
+            <Field name="Population" source="File: C:\Users\Tim\Desktop\Total Population by County.xlsx|||`Annual_Population_Estimates_for$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="474" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="702" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [Year] = '2017' THEN '2017-2018' ELSEIF&#xA;[Year] = '2016' THEN '2016-2017' ELSEIF&#xA;[Year] = '2015' THEN '2015-2016' ELSEIF&#xA;[Year] = '2014' THEN '2014-2015' ELSEIF&#xA;[Year] = '2013' THEN '2013-2014' ELSE&#xA;[Year]&#xA;ENDIF&#xA;" field="Season" size="19" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Season = IF [Year] = '2017' THEN '2017-2018' ELSEIF
+[Year] = '2016' THEN '2016-2...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="546" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Year] &gt; 2012</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Year] &gt; 2012</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FIPS Code" selected="True" />
+            <SelectField field="Year" selected="True" type="String" size="19" />
+            <SelectField field="Geography" selected="True" rename="County" />
+            <SelectField field="Program Type" selected="False" />
+            <SelectField field="Population" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1098" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Season" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="Disease" selected="True" />
+            <SelectField field="Sum_Count" selected="True" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="County Centroid" selected="True" />
+            <SelectField field="Population" selected="True" />
+            <SelectField field="% of Population" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Season" selected="True" />
+            <SelectField field="County" selected="True" />
+            <SelectField field="Population" selected="True" />
+            <SelectField field="Year" selected="False" />
+            <SelectField field="FIPS Code" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="906" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Season" />
+            <Field field="FIPS" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Season" />
+            <Field field="FIPS Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Season" selected="True" />
+                <SelectField field="Left_County" selected="True" />
+                <SelectField field="Left_Disease" selected="True" />
+                <SelectField field="Left_Sum_Count" selected="True" />
+                <SelectField field="Left_Region" selected="True" />
+                <SelectField field="Left_County Centroid" selected="True" />
+                <SelectField field="Left_FIPS" selected="True" />
+                <SelectField field="Right_Season" selected="False" rename="Right_Season" />
+                <SelectField field="Right_County" selected="False" rename="Right_County" />
+                <SelectField field="Right_Population" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1002" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Sum_Count]/[Population] * 100" field="% of Population" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[% of Population = [Sum_Count]/[Population] * 100
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
   </Nodes>
   <Connections>
@@ -433,11 +657,47 @@ Table=Sheet1</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="16" Connection="Output" />
-      <Destination ToolID="11" Connection="Input" />
+      <Destination ToolID="27" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="17" Connection="Unique" />
       <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Join" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
